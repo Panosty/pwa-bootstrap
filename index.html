@@ -25,9 +25,79 @@
   <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
 
   <main>
-    <div class="container-md">
-      <h1 class="bg-dark text-white"><i class="bi-alarm"></i> Bonjour le monde!</h1>
-    </div>
+    <div class="container col-12">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="restaurant.ico" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse col-12" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Livraison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contactez-nous</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid bg-dark text-white text-center  ">
+      <h3 class="pt-3">Welcome to La familia restaurant</h3>
+      <p class="pb-3">Découvrez notre menu exclusif : Ces bons ingrédients qui font de nous les favoris au pays.</p>
+      </div>
+      <div class="row ">
+        <div class=" col-12 col-xl-4">
+          <div class="card h-100">
+            <img src="recettes/img1.jpg" class="card-img-top "  alt="Mon poulet">
+            <div class="card-body">
+              <h5 class="card-title">Poulet</h5>
+              <ul>
+                <li>Ailes de poulet a la japonaise</li>
+                <li>Brochettes satay</li>
+                <li>Coq au riesling</li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary">Voir les détails</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-xl-4">
+          <div class="card h-100">
+            <img src="recettes/img3.jpg" class="card-img-top" alt="Mpo poisson">
+            <div class="card-body">
+              <h5 class="card-title">Poisson</h5>
+              <ul>
+                <li>Croquettes de poisson</li>
+                <li>Poelée de poisson tex-mex</li>
+                <li>Tacos au poisson grillé</li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary">Voir les détails</button>
+            </div>
+          </div>
+        </div>
+        <div class=" col-12 col-xl-4">
+          <div class="card h-100">
+            <img src="recettes/img2.jpg" class="card-img-top" alt="Mon dessert">
+            <div class="card-body">
+              <h5 class="card-title">Dessert</h5>
+              <ul>
+                <li>Gateau japonais au fromage</li>
+                <li>Brownies aux brisures de chocolat</li>
+                <li>Confiture de fraise</li>
+              </ul>
+              <button type="button" class="btn btn-outline-primary">Voir les détails</button>
+            </div>
+          </div>
+        </div>
+      </div>  
   </main>
 
   <script src="index.js"></script>
