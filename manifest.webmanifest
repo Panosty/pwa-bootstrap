@@ -1,36 +1,32 @@
 {
-    "short_name": "Restaurant",
-    "name": "Familia restaurant",
-    "icons": [
-      {
-        "src": "/pwa-bootsrtap/icon-32x32.png",
-        "type": "image/png",
-        "sizes": "32x32"
-      },
-      {
-        "src": "/pwa-bootsrtap/icon-48x48.png",
-        "type": "image/png",
-        "sizes": "48x48"
-      },
-      {
-        "src": "/pwa-bootsrtap/icon-152x152.png",
-        "type": "image/png",
-        "sizes": "152x152"
-      },
-      {
-        "src": "/pwa-bootsrtap/icon-192x192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "/pwa-bootsrtap/icon-512x512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "/pwa-bootsrtap/index.html",
-    "scope": "/pwa-bootsrtap/",
-    "background_color": "white",
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
     "display": "standalone",
-    "theme_color": "black"
-  }
+    "scope": "/pwa-bootstrap/",
+    "start_url": "index.html",
+    "name": "Familia restaurant",
+    "short_name": "restaurant",
+    "description": "La bonne bouffe!",
+    "icons": [
+        {
+            "src": "/pwa-bootstrap/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa-bootstrap/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa-bootstrap/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa-bootstrap/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
